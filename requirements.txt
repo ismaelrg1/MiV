@@ -1,0 +1,7 @@
+#### Librerias utilizadas ####
+numpy
+pandas
+calmap
+matplotlib
+plotly
+seaborn

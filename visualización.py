@@ -28,7 +28,7 @@ data['Evento'] = eventos_por_dia["Numero_expedient"]
 events = pd.Series(list(data['Evento']), index=list(data["Fecha"]))
 
 # Creacion del mapa
-ax = calmap.yearplot(events,cmap='BuGn',year=2022, vmin= 25,daylabels='MTWTFSS', dayticks=[0, 2, 4, 6])
+ax = calmap.yearplot(events, cmap='BuGn', year=2022, vmin=25, daylabels='MTWTFSS', dayticks=[0, 2, 4, 6])
 
 # Añadir un título
 plt.title('Accidentes gestionados por la Guàrdia Urbana a la ciutat de Barcelona', fontsize=27)
